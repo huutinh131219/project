@@ -46,13 +46,13 @@
                   <form method="post">
                      <div class="form-group">
                         <label>Username</label>
-                        <input type="text" name="lbUsername" class="form-control" placeholder="Username" required>
+                        <input type="text" name="lbUsername" class="form-control" placeholder="username" required>
                      </div>
-                     <div class="form-group">
+                     <!-- <div class="form-group">
                         <label>Password</label>
                         <input type="password" name="lbPassword" class="form-control" placeholder="Password" required>
-                     </div>
-                     <button type="submit" name="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
+                     </div> -->
+                     <!-- <button type="submit" name="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button> -->
 					</form>
 					<div class="field_error"><?php echo $msg?></div>
                </div>
